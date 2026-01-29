@@ -47,11 +47,13 @@ node src/simulation/simulation.js
 ```
 http://localhost:3000/api
 ```
+<img width="1070" height="202" alt="Screenshot 2026-01-29 112945" src="https://github.com/user-attachments/assets/aa60f669-e462-48b9-ac2c-1a3cc4b9523c" />
 
 ### Endpoints
 
 #### 1. Request Token
 **POST** `/tokens/request`
+<img width="1031" height="627" alt="Screenshot 2026-01-29 112820" src="https://github.com/user-attachments/assets/e3342400-8e41-420b-b802-065456d7cac0" />
 
 Request a new token for a patient.
 
@@ -83,6 +85,7 @@ Request a new token for a patient.
 
 #### 2. Cancel Token
 **POST** `/tokens/cancel`
+<img width="1050" height="607" alt="Screenshot 2026-01-29 112346" src="https://github.com/user-attachments/assets/1e4a9600-16f3-4a06-9fad-b10e5c37580b" />
 
 Cancel an existing token and reallocate.
 
@@ -96,6 +99,7 @@ Cancel an existing token and reallocate.
 
 #### 3. Insert Emergency Token
 **POST** `/tokens/emergency`
+<img width="465" height="604" alt="Screenshot 2026-01-29 110259" src="https://github.com/user-attachments/assets/64b06f08-23d2-4a35-a98c-09015fb4502c" />
 
 Insert an emergency/priority token.
 
@@ -111,11 +115,15 @@ Insert an emergency/priority token.
 
 #### 4. Get Slot Status
 **GET** `/slots/:doctorId/:slotTime`
+**<img width="482" height="611" alt="Screenshot 2026-01-29 110215" src="https://github.com/user-attachments/assets/b9260185-9cb9-4c70-af44-ec3a83184e47" />
+<img width="474" height="509" alt="Screenshot 2026-01-29 110327" src="https://github.com/user-attachments/assets/caee593b-ae99-4868-be9c-016e5febd205" />
 
+**
 Get current status of a specific slot.
 
 #### 5. Get Doctor Schedule
 **GET** `/doctors/:doctorId/schedule`
+<img width="462" height="610" alt="Screenshot 2026-01-29 105810" src="https://github.com/user-attachments/assets/9adde33d-1082-442e-8f02-8b12024e3c22" />
 
 Get complete schedule for a doctor.
 
