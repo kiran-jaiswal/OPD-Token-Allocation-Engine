@@ -115,8 +115,8 @@ Insert an emergency/priority token.
 
 #### 4. Get Slot Status
 **GET** `/slots/:doctorId/:slotTime`
-**<img width="482" height="611" alt="Screenshot 2026-01-29 110215" src="https://github.com/user-attachments/assets/b9260185-9cb9-4c70-af44-ec3a83184e47" />
-<img width="474" height="509" alt="Screenshot 2026-01-29 110327" src="https://github.com/user-attachments/assets/caee593b-ae99-4868-be9c-016e5febd205" />
+**<img width="474" height="509" alt="Screenshot 2026-01-29 110327" src="https://github.com/user-attachments/assets/caee593b-ae99-4868-be9c-016e5febd205" />
+<img width="482" height="611" alt="Screenshot 2026-01-29 110215" src="https://github.com/user-attachments/assets/4b569c73-4d2e-4066-ba61-a475542a82d8" />
 
 **
 Get current status of a specific slot.
