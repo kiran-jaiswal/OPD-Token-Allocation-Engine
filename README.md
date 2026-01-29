@@ -2,6 +2,9 @@
 
 ## Overview
 A backend system for managing hospital OPD (Outpatient Department) token allocation with elastic capacity management. The system handles dynamic token allocation across multiple sources while respecting slot capacity limits and prioritization rules.
+<img width="1037" height="650" alt="image" src="https://github.com/user-attachments/assets/3f371b9e-6eb6-4c2b-99b4-f4c5473c770b" />
+<img width="992" height="590" alt="Screenshot 2026-01-29 113825" src="https://github.com/user-attachments/assets/5033646a-c39b-4fda-b10f-25b6e79ec803" />
+
 
 ## Features
 - **Dynamic Token Allocation**: Allocates tokens from multiple sources (online booking, walk-in, paid priority, follow-up)
