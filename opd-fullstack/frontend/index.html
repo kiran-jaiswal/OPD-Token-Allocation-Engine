@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OPD Token Allocation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <h1>🏥 OPD Token Allocation</h1>
+  <div class="stats">
+    <span>Total Tokens: <b id="totalTokens">0</b></span>
+    <span>Waiting: <b id="waiting">0</b></span>
+  </div>
+</header>
+
+<main class="layout">
+
+  <!-- LEFT -->
+  <section class="card">
+    <h2>Request Token</h2>
+    <input id="pId" placeholder="Patient ID">
+    <input id="pName" placeholder="Patient Name">
+    <input id="slot" placeholder="Slot (09:00)">
+    <select id="doctor">
+      <option value="DOC001">Dr Sharma</option>
+      <option value="DOC002">Dr Patel</option>
+      <option value="DOC003">Dr Kumar</option>
+    </select>
+    <select id="source">
+      <option value="online">Online</option>
+      <option value="walkin">Walk-in</option>
+      <option value="followup">Follow-up</option>
+    </select>
+    <button onclick="requestToken()">Generate Token</button>
+  </section>
+
+  <!-- RIGHT -->
+  <section class="card">
+    <h2>Emergency Token</h2>
+    <input id="eId" placeholder="Patient ID">
+    <input id="eName" placeholder="Patient Name">
+    <input id="eSlot" placeholder="Preferred Slot">
+    <select id="eDoctor">
+      <option value="DOC001">Dr Sharma</option>
+      <option value="DOC002">Dr Patel</option>
+      <option value="DOC003">Dr Kumar</option>
+    </select>
+    <button class="danger" onclick="emergencyToken()">Emergency Insert</button>
+  </section>
+
+  <!-- DOCTORS -->
+  <section class="card wide">
+    <h2>Doctor Overview</h2>
+    <div id="doctorList"></div>
+  </section>
+
+  <!-- OUTPUT -->
+  <section class="card wide dark">
+    <h2>System Output</h2>
+    <div id="loader" class="loader hidden"></div>
+    <pre id="output">Waiting...</pre>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
